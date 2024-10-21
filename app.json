@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "react-native-aura",
-    "slug": "react-native-aura",
+    "name": "Aura",
+    "slug": "aura",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "aura",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.native.aura"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ddf8e6f7-bc1e-4e89-8093-700d40aee2f1"
+      }
     }
   }
 }
